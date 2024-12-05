@@ -10,5 +10,5 @@ COPY ${JAR_FILE} app.jar
 # Expose the default application port
 EXPOSE 8080
 
-# Set the entry point to run the JAR file
+# Set the entry point to run the JAR filee
 ENTRYPOINT ["java", "-jar", "/app.jar"]
